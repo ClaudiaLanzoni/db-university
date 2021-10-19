@@ -1,0 +1,61 @@
+UNIVERSITY TABLE :
+
+CARATTERISTICA          |   TIPO DI DATO        |   SPECIFICHE TIPO DATO    |   ATTRIBUTI    
+-----------------------------------------------------------------------------------------
+id                      |   intero              |   MEDIUMINT               |   AUTOINCREMENT - NOTNULL
+name                    |   stringa             |   VARCHAR(30)             |   NOTNULL
+place                   |   stringa             |   VARCHAR(30)             |   NOTNULL
+year                    |   date                |   YEAR                    |   NULL
+
+DEPARTMENT TABLE :
+
+CARATTERISTICA          |   TIPO DI DATO        |   SPECIFICHE TIPO DATO    |   ATTRIBUTI    
+-----------------------------------------------------------------------------------------
+id                      |   intero              |   MEDIUMINT               |   AUTOINCREMENT - NOTNULL
+name                    |   stringa             |   VARCHAR(30)             |   NOTNULL
+
+DEGREE COURSE TABLE :
+
+CARATTERISTICA          |   TIPO DI DATO        |   SPECIFICHE TIPO DATO    |   ATTRIBUTI    
+-----------------------------------------------------------------------------------------
+id                      |   intero              |   MEDIUMINT               |   AUTOINCREMENT - NOTNULL
+name                    |   stringa             |   VARCHAR(30)             |   NOTNULL
+
+STUDENT TABLE :
+
+CARATTERISTICA          |   TIPO DI DATO        |   SPECIFICHE TIPO DATO    |   ATTRIBUTI    
+-----------------------------------------------------------------------------------------
+id                      |   intero              |   MEDIUMINT               |   AUTOINCREMENT - NOTNULL
+name                    |   stringa             |   VARCHAR(30)             |   NOTNULL
+
+PROFESSOR TABLE :
+
+CARATTERISTICA          |   TIPO DI DATO        |   SPECIFICHE TIPO DATO    |   ATTRIBUTI    
+-----------------------------------------------------------------------------------------
+id                      |   intero              |   MEDIUMINT               |   AUTOINCREMENT - NOTNULL
+name                    |   stringa             |   VARCHAR(30)             |   NOTNULL
+age                     |   intero              |   TINYINT                 |   NULL
+degree                  |   stringa             |   VARCHAR(30)             |   NOTNULL
+teaching_subject        |   stringa             |   VARCHAR(30)             |   NOTNULL
+
+COURSE TABLE :
+
+CARATTERISTICA          |   TIPO DI DATO        |   SPECIFICHE TIPO DATO    |   ATTRIBUTI    
+-----------------------------------------------------------------------------------------
+id                      |   intero              |   MEDIUMINT               |   AUTOINCREMENT - NOTNULL
+name                    |   stringa             |   VARCHAR(30)             |   NOTNULL
+topic                   |   stringa             |   VARCHAR(30)             |   NOTNULL
+
+EXAM TABLE :
+
+CARATTERISTICA          |   TIPO DI DATO        |   SPECIFICHE TIPO DATO    |   ATTRIBUTI    
+-----------------------------------------------------------------------------------------
+id                      |   intero              |   MEDIUMINT               |   AUTOINCREMENT - NOTNULL
+name                    |   stringa             |   VARCHAR(30)             |   NOTNULL
+date                    |   date                |   DATE                    |   NOTNULL
+
+
+
+
+
+
